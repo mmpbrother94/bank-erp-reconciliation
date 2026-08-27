@@ -1,0 +1,7 @@
+# Uploaded statements and generated workbooks must never be served as static
+# files - they are only reachable through the app, after login.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^jobs/ - [F,L]
+RewriteRule ^output/ - [F,L]
+</IfModule>

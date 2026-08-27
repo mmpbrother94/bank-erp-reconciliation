@@ -1,0 +1,6 @@
+pandas>=2.0
+openpyxl>=3.1
+xlrd>=2.0
+XlsxWriter>=3.1
+Flask>=2.3
+waitress>=2.1

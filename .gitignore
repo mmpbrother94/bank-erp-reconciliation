@@ -1,0 +1,35 @@
+# ---- BANK / FINANCIAL DATA - never commit ----
+# Real bank statements, ERP exports and reconciliation output.
+*.xlsx
+*.XLSX
+*.xls
+*.XLS
+*.csv
+*.CSV
+*.pdf
+output/
+uploads/
+
+# Secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Local tooling / logs
+.claude/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Deployment archives (may embed data)
+*.zip
